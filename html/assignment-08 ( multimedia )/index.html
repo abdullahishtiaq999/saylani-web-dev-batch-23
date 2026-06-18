@@ -1,16 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MultiMedia - Eight Assignment</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h2>Task 1</h2>
 
-    <audio controls autoplay muted loop preload="metadata">
-        <!-- <source src="./01.mp3"> -->
-        <source src="./01.mp3">
+    <audio controls loop preload="metadata">
+      <source src="./01.mp3" />
+      <source src="./01.mp3" />
     </audio>
-    
-</body>
+
+    <h2>Task 2</h2>
+
+    <video controls loop width="500" poster="./thumbnail.jfif" preload="none">
+      <source src="./01.mp4" />
+      <source src="./01.mp4" />
+    </video>
+
+    <h2>Task 3</h2>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/tVzUXW6siu0?si=1yxgxP-yEaK4ljU4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Task 4</h2>
+
+    <!-- 01 -- browser ko btata ha key file background mai kitni download karni ha -->
+    <!-- 02 -- jub value auto hoti ha tub browser load hotey hi background main file ko download karney lag jata ha or jub value none hoti ha tou browser tub tk kuch nhi download karta bacground main jub tak user play par click nah kar ley -->
+  </body>
 </html>

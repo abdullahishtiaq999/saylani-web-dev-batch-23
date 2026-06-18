@@ -1,0 +1,24 @@
+p {
+  color: gray;
+}
+
+#main-heading {
+  color: blue;
+}
+
+.intro {
+  color: green;
+}
+
+.box {
+  color: brown;
+}
+
+h1,
+h2 {
+    color: purple;
+}
+
+.box a {
+    color: red;
+}
