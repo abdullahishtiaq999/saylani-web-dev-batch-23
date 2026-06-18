@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form - seventh assignment</title>
+  </head>
+  <body>
+    <form action="/" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="full-name">Full Name: </label>
+        <input
+          type="text"
+          name="userFullName"
+          id="full-name"
+          placeholder="Enter Your Full Name"
+          required
+        />
+        <br /><br />
+
+        <label for="father-name">Father Name: </label>
+        <input
+          type="text"
+          name="userFatherName"
+          id="father-name"
+          placeholder="Enter Your Father Name"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Email Address: </label>
+        <input
+          type="email"
+          name="userEmail"
+          id="email"
+          placeholder="Enter Your Email Address"
+          required
+        />
+        <br /><br />
+
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          name="userPassword"
+          id="password"
+          placeholder="Enter Your Password"
+          required
+        />
+        <br /><br />
+
+        <label for="phone-number">Phone Number: </label>
+        <input
+          type="tel"
+          name="userPhoneNumber"
+          id="phone-number"
+          placeholder="Enter Your Phone Number"
+        />
+        <br /><br />
+
+        <label for="cnic">CNIC: </label>
+        <input
+          type="number"
+          name="userCNIC"
+          id="cnic"
+          placeholder="12345-1234567-1"
+          maxlength="15"
+          required
+        />
+        <br /><br />
+
+        <label for="dob">Date Of Birth: </label>
+        <input type="date" name="userDOB" id="dob" required />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Gender Section</legend>
+
+        <label for="male">Male: </label>
+        <input type="radio" name="userGender" id="male" value="male" />
+        <br />
+        <label for="female">Female: </label>
+        <input type="radio" name="userGender" id="female" value="female" />
+        <br />
+        <label for="others">Others: </label>
+        <input type="radio" name="userGender" id="others" value="others" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills Section</legend>
+
+        <label for="html">HTML: </label>
+        <input type="checkbox" name="userSkills" id="html" value="html" />
+        <br />
+
+        <label for="css">CSS: </label>
+        <input type="checkbox" name="userSkills" id="css" value="css" />
+        <br />
+
+        <label for="js">JavaScript: </label>
+        <input type="checkbox" name="userSkills" id="js" value="js" />
+        <br />
+
+        <label for="react">React JS: </label>
+        <input type="checkbox" name="userSkills" id="react" value="react" />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Education Section</legend>
+        <label for="education">Education: </label>
+        <select name="userEducation" id="education">
+          <option selected disabled><----- education -----></option>
+          <option value="matric">Matric</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="bachelor">Bachelor</option>
+          <option value="master">Master</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>City Section:</legend>
+        <label for="city">City: </label>
+        <select name="userCity" id="city">
+          <option selected disabled><----- city -----></option>
+          <option value="karachi ">Karachi</option>
+          <option value="lahore ">Lahore</option>
+          <option value="islamabad ">Islamabad</option>
+          <option value="peshawar ">Peshawar</option>
+          <option value="quetta ">Quetta</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Upload Section</legend>
+        <label for="picture">Upload Picture: </label>
+        <input type="file" name="userPicture" id="picture" />
+        <br /><br />
+        <label for="cv">Upload CV: </label>
+        <input type="file" name="userCV" id="cv" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Address Section</legend>
+        <label for="address">Address: </label>
+        <textarea
+          name="userAddress"
+          id="address"
+          placeholder="Enter Your Address"
+          rows="8"
+          cols="30"
+          required
+        ></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Agreement Section</legend>
+        <input type="checkbox" name="userAgreement" id="agreement" required />
+        <label for="agreement">I agree to the terms and conditions</label>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
