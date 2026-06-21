@@ -180,7 +180,8 @@ body {
 }
 
 .services-content,
-.working-process-text {
+.working-process-text,
+.contact-section-text {
   display: flex;
   align-items: center;
   column-gap: 4rem;
@@ -188,7 +189,8 @@ body {
 }
 
 .services-content h2,
-.working-process-text h2 {
+.working-process-text h2,
+.contact-section-text h2 {
   font-size: 2rem;
   background-color: var(--green-bg-color);
   padding: 0.2rem 0.4rem;
@@ -196,7 +198,8 @@ body {
 }
 
 .services-content p,
-.working-process-text p {
+.working-process-text p,
+.contact-section-text p {
   width: 50%;
   opacity: 0.85;
 }
@@ -263,6 +266,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+  margin-bottom: 5rem;
 }
 
 .carousel {
@@ -409,6 +413,78 @@ body {
   opacity: 0;
 }
 
+/* contact section */
+
+.contact-section-form {
+  background-color: var(--white-bg-color);
+  padding: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contact-form > div {
+  width: 50%;
+}
+
+.radio-button-section label {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.radio-button-section input {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  margin-right: 0.5rem;
+  accent-color: var(--green-color);
+}
+
+.contact-form .contact-form-fields form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+.contact-form-fields form label {
+  font-weight: 600;
+  opacity: 0.85;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.contact-form-fields form input,
+.contact-form-fields form textarea,
+.contact-form-fields form button {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.6rem;
+  outline: none;
+}
+
+.contact-form-fields form button {
+  background-color: var(--black-bg-color);
+  color: var(--white-color);
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-form-image img {
+  position: absolute;
+  right: -32%;
+  width: 55%;
+}
+
 @media (max-width: 1086px) {
   html {
     font-size: 14px;
@@ -468,18 +544,21 @@ body {
   }
 
   .services-content,
-  .working-process-text {
+  .working-process-text,
+  .contact-section-text {
     flex-direction: column;
   }
 
   .services-content h2,
-  .working-process-text h2 {
+  .working-process-text h2,
+  .contact-section-text h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
 
   .services-content p,
-  .working-process-text p {
+  .working-process-text p,
+  .contact-section-text p {
     width: 100%;
     text-align: center;
     font-size: 1.4rem;
@@ -493,6 +572,14 @@ body {
   .services-card-section .card {
     width: 80%;
     justify-content: space-between;
+  }
+
+  .contact-form > div {
+    width: 100%;
+  }
+
+  .contact-form-image {
+    display: none;
   }
 }
 
@@ -561,5 +648,13 @@ body {
 
   .icon-main .horizontal-line {
     width: 15px;
+  }
+
+  .contact-section-form {
+    padding: 2rem;
+  }
+
+  .radio-button-section {
+    text-align: center;
   }
 }
