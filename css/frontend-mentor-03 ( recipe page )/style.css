@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "main-heading-font";
+  src: url(./assets/fonts/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "secondary-heading-font";
+  src: url(./assets/fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: "light-para-font";
+  src: url(./assets/fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "dark-para-font";
+  src: url(./assets/fonts/Outfit-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e6d8;
+}
+
+.card {
+  width: 70%;
+  margin: 6rem auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card-content {
+    border-radius: inherit;
+}
+
+.card img {
+  width: 100%;
+  border-radius: inherit;
+  margin-bottom: 2rem;
+}
+
+.card h1,
+.card h2 {
+  font-family: "main-heading-font";
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  color: #854632;
+}
+
+.card p {
+  font-family: "light-para-font";
+  color: #5f574e;
+  margin-bottom: 1rem;
+}
+
+.preparation-section {
+  background-color: #fff5fa;
+  padding: 1rem 2rem;
+  border-radius: inherit;
+  margin-bottom: 2rem;
+}
+
+.preparation-section h3 {
+  color: #7b284f;
+  font-family: "secondary-heading-font";
+  margin-bottom: 1rem;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+ul li span,
+ol li span {
+  font-family: "dark-para-font";
+  line-height: 30px;
+}
+
+ol li span {
+  margin-left: 8px;
+}
+
+ul li,
+ol li {
+  font-family: "light-para-font";
+  margin-block: 0.8rem;
+  opacity: 0.85;
+}
+
+ul li::marker,
+ol li::marker {
+  color: #7b284f;
+  font-size: 12px;
+}
+
+ol li::marker {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+hr {
+  height: 1px;
+  margin-block: 2rem;
+  opacity: 0.45;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+table tr:last-child td {
+  border: none;
+}
+
+td.first {
+  opacity: 0.7;
+  font-family: "light-para-font";
+}
+
+td.first + td {
+  color: #854632;
+  font-family: "secondary-heading-font";
+}
+
+@media screen and (max-width: 668px) {
+  .card {
+    padding: 0;
+    margin-block: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .card img {
+    border-radius: 0;
+  }
+
+  .card-content {
+    padding: 1rem;
+    border-radius: inherit;
+  }
+}
