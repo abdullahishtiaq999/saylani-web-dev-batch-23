@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "primary-font";
+  src: url(./assets/fonts/dm-sans.ttf);
+}
+
+@font-face {
+  font-family: "secondary-font";
+  src: url(./assets/fonts/dm-mono-regular.ttf);
+}
+
+@font-face {
+  font-family: "curvy-font";
+  src: url(./assets/fonts/fraunces-regular.ttf);
+}
+
+:root {
+  --body-bg-color: #fbf6ef;
+  --card-light-red-bg: #e0793e;
+  --card-dark-red-bg: #b6421b;
+  --white-clr: #ffffff;
+  --black-clr: #2c2721;
+  --blue-clr: #586ac6;
+  --rose-clr: #bf4a71;
+  --yellow-clr: #f5d88a;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header */
+
+#hamburger-menu {
+  display: none;
+}
+
+.container header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.4rem;
+  padding-inline: 1.5rem;
+}
+
+header .top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-block: 1rem;
+}
+
+header .top .menu-bar img {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  width: 40px;
+}
+
+#close-icon {
+  display: none;
+}
+
+.middle {
+  height: 70vh;
+  display: none;
+}
+
+.middle .nav-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  height: 60vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 1.6rem;
+}
+
+.nav-links > span,
+.nav-links > span > .span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+
+.nav-links > span:first-child {
+  background-color: var(--white-clr);
+  position: relative;
+}
+
+.nav-links > span:first-child > .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 1.6rem;
+  background-color: var(--card-dark-red-bg);
+  color: var(--white-clr);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.nav-links > span {
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.nav-links > span a {
+  font-family: "primary-font";
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--black-clr);
+}
+
+.nav-links .wheater {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.4rem;
+  margin-top: auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background: var(--yellow-clr) url(./assets/images/icon-weather.svg) no-repeat;
+  background-position: 110% -90%;
+}
+
+.wheater span:first-child {
+  font-family: "secondary-font";
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.wheater span:first-child + span {
+  font-family: "curvy-font";
+  font-size: 2rem;
+}
+
+.wheater span + span + span {
+  font-family: "primary-font";
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.middle .footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  font-family: "secondary-font";
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+#hamburger-menu:checked ~ .container > header > .middle {
+  display: block;
+}
+
+#hamburger-menu:checked ~ .container > header > .top > .menu-bar > #menu-icon {
+  display: none;
+}
+
+#hamburger-menu:checked ~ .container > header > .top > .menu-bar > #close-icon {
+  display: block;
+}
