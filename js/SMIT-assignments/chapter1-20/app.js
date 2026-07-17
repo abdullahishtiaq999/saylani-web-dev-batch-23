@@ -201,3 +201,27 @@
 // document.write("Total Currency in PKR: " + ((USD * 277.85) + (SAR * 74.05)));
 
 // task 32 :
+// var r = 10;
+// var pie = 3.142;
+// var circumference = ((2 * pie) * r);
+// var area = pie * r**2;
+
+// document.write("<h1>The Geometrizer</h1> <br /> <br /> <br />");
+// document.write("<div>Radius of a circle: " + r + "</div>");
+// document.write("<div>The circumference is: "  + circumference +"</div>");
+// document.write("<div>The area is: " + area +"</div>");
+
+// task 33 :
+// var favSnack = "biryani";
+// var currAge = 16;
+// var maxAge = 80;
+// var estAmount = 3;
+
+// document.write("<h1>The lifetime supply calculator</h1> <br /><br /><br />");
+// document.write("<div>Favourite Snack: " + favSnack + "</div>");
+// document.write("<div>Current Age: " + currAge + "</div>");
+// document.write("<div>Maximum Age: " + maxAge + "</div>");
+// document.write("<div>Amount of snacks per day: " + estAmount + "</div>");
+// document.write("<div>You will need: " + (maxAge - currAge) * 365 + "</div>");
+
+// task 34 :
