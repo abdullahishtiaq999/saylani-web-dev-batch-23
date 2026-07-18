@@ -201,6 +201,19 @@
 // document.write("Total Currency in PKR: " + ((USD * 277.85) + (SAR * 74.05)));
 
 // task 32 :
+// var number = 2 + 2 * 10 / 2;
+// console.log(number);
+
+// task 33 :
+// var currYear = 2026;
+// var yearOfBirth = 2009;
+// document.write("<h1>Age Calculator</h1> <br /><br /><br />");
+// document.write("<div>Current Year: " + currYear + "</div>");
+// document.write("<div>Year of Birth: " + yearOfBirth + "</div>");
+// document.write("<div>Your Age is : " + (currYear - yearOfBirth) + "</div>");
+
+
+// task 34 :
 // var r = 10;
 // var pie = 3.142;
 // var circumference = ((2 * pie) * r);
@@ -211,7 +224,7 @@
 // document.write("<div>The circumference is: "  + circumference +"</div>");
 // document.write("<div>The area is: " + area +"</div>");
 
-// task 33 :
+// task 35 :
 // var favSnack = "biryani";
 // var currAge = 16;
 // var maxAge = 80;
@@ -224,4 +237,4 @@
 // document.write("<div>Amount of snacks per day: " + estAmount + "</div>");
 // document.write("<div>You will need: " + (maxAge - currAge) * 365 + "</div>");
 
-// task 34 :
+// task 36 :
