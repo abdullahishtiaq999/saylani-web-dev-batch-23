@@ -237,4 +237,116 @@
 // document.write("<div>Amount of snacks per day: " + estAmount + "</div>");
 // document.write("<div>You will need: " + (maxAge - currAge) * 365 + "</div>");
 
+// chapter 6 to 9 ( math expressions and string concatenation and prompts ) -----------------------------\
+
 // task 36 :
+// var a = 10;
+
+// document.write("<div>Result:</div>");
+// document.write("<div>The value of a is: " + a + "</div>");
+// document.write("<div>----------------------------------------</div>");
+// document.write("<div>The value of ++a is: " + ++a + "</div>");
+// document.write("<div>Now the value of a is: " + a + "</div> <br /><br />");
+// document.write("<div>The value of a++ is: " + a++ + "</div>");
+// document.write("<div>Now the value of a is: " + a + "</div> <br /><br />");
+// document.write("<div>The value of --a is: " + --a + "</div>");
+// document.write("<div>Now the value of a is: " + a + "</div> <br /><br />");
+// document.write("<div>The value of a-- is: " + a-- + "</div>");
+// document.write("<div>Now the value of a is: " + a + "</div> <br /><br />");
+
+// task 37 :
+// var a = 2; // 1
+// var b = 1; // 0
+// var result = --a - --b + ++b + b--; // 3
+//            1  -  0  +  1  + 1
+//                1 + 1 + 1
+//                    3
+
+// document.write("<div>a is: " + a + "</div>");
+// document.write("<div>b is: " + b + "</div>");
+// document.write("<div>result is: " + result + "</div>");
+
+// task 38 :
+// var userName = prompt("Please Enter Your Name");
+// alert("Welcome " + userName);
+
+// task 39 :
+// missing
+
+// task 40 :
+// var tableNumber = +prompt("Please Enter a Number" , 5);
+// var num = 1;
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++ + "<br />");
+// document.write(tableNumber + " x " + num + " = " +tableNumber * num++);
+
+// task 41 :
+// var sub1 = "bio";
+// var sub2 = "phy";
+// var sub3 = "chem";
+// var totalMarks = 100;
+// var sub1ObtainedMarks = +prompt("Please Enter Obtain Marks of Bio");
+// var sub2ObtainedMarks = +prompt("Please Enter Obtain Marks of Phy");
+// var sub3ObtainedMarks = +prompt("Please Enter Obtain Marks of Chem");
+
+// document.write(`<table>
+
+// <tr>
+
+// <th>Subject</th>
+// <th>Total Marks</th>
+// <th>Obtained Marks</th>
+// <th>Percentage</th>
+
+// </tr>'
+
+// <tr>
+
+// <td>${sub1}</td>
+// <td>${totalMarks}</td>
+// <td>${sub1ObtainedMarks}</td>
+// <td>${(sub1ObtainedMarks / totalMarks) * 100}%</td>
+
+// </tr>
+
+// <tr>
+
+// <td>${sub2}</td>
+// <td>${totalMarks}</td>
+// <td>${sub2ObtainedMarks}</td>
+// <td>${(sub2ObtainedMarks / totalMarks) * 100}%</td>
+
+// </tr>
+
+// <tr>
+
+// <td>${sub3}</td>
+// <td>${totalMarks}</td>
+// <td>${sub3ObtainedMarks}</td>
+// <td>${(sub3ObtainedMarks / totalMarks) * 100}%</td>
+// </tr>
+
+// <tr>
+
+// <td></td>
+// <td>${totalMarks * 3}</td>
+// <td>${sub1ObtainedMarks + sub2ObtainedMarks + sub3ObtainedMarks}</td>
+// <td>${(((sub1ObtainedMarks / totalMarks) * 100) + ((sub2ObtainedMarks / totalMarks) * 100) + ((sub3ObtainedMarks / totalMarks) * 100)) / 3}%</td>
+
+// </tr>
+
+// </table>`)
+
+// task 42 :
+// missing
+
+// chapter 6 to 9 ( if statement and comparison operators ) -----------------------------
+
+// task 43 :
