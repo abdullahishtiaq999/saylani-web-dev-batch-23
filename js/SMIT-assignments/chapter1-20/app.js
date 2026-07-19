@@ -1,4 +1,4 @@
-// chapter 1 ( alerts ) -----------------------------
+// chapter 1 to 4 ( alerts and variables ) -----------------------------
 
 // task 1 :
 // alert("Welcome to our website");
@@ -21,8 +21,6 @@
 
 // task 7 :
 // task completed
-
-// chapter 2 ( variables for strings ) -----------------------------\
 
 // task 8 :
 // var userName;
@@ -64,8 +62,6 @@
 // var design = "---- hello ----";
 // alert(design);
 
-// chapter 3 ( variables for numbers ) -----------------------------\
-
 // task 17 :
 // var age = 16;
 // alert("I am " + age + " years old");
@@ -86,8 +82,6 @@
 // var product = "T-shirts";
 // var productCounts = 5;
 // document.write("<b>" + visitorName + "</b>" + " ordered" + "<b>" + " " + productCounts + " " + product + "</b>" + " on" + " " + storeName + " clothing store");
-
-// chapter 4 ( variables naming rules ) -----------------------------\
 
 // task 21 :
 // var one , two , three;
@@ -113,7 +107,7 @@
 // document.write("<div>Variables names are case sensitive</div>");
 // document.write("<div>Variables names should not be JS keyword</div>");
 
-// chapter 5 ( math expression ) -----------------------------\
+// chapter 5 to 8 ( math expressions and string concatenation ) -----------------------------\
 
 // task 24 :
 // var num1 = 20;
@@ -237,8 +231,6 @@
 // document.write("<div>Amount of snacks per day: " + estAmount + "</div>");
 // document.write("<div>You will need: " + (maxAge - currAge) * 365 + "</div>");
 
-// chapter 6 to 9 ( math expressions and string concatenation and prompts ) -----------------------------\
-
 // task 36 :
 // var a = 10;
 
@@ -265,6 +257,8 @@
 // document.write("<div>a is: " + a + "</div>");
 // document.write("<div>b is: " + b + "</div>");
 // document.write("<div>result is: " + result + "</div>");
+
+// chapter 9 to 14 ( prompts and desicion making ) -----------------------------
 
 // task 38 :
 // var userName = prompt("Please Enter Your Name");
@@ -347,6 +341,91 @@
 // task 42 :
 // missing
 
-// chapter 6 to 9 ( if statement and comparison operators ) -----------------------------
-
 // task 43 :
+// var city = prompt("Please Enter Your City");
+// if(city.toLowerCase() === "karachi") {
+//     console.log("Welcome to the city of lights")
+// };
+
+// task 44 :
+// var gender = prompt("Please Enter Your Gender");
+// if(gender.toLowerCase() === "male") {
+//     console.log("Good Morning Sir")
+// } else if (gender.toLowerCase() === "female") {
+//     console.log("Good Morning Ma'am")
+// } else {
+//     console.log("Please enter a valid gender");
+// };
+
+// task 45 :
+// var trafficLight = prompt();
+
+// if(trafficLight.toLowerCase() === "red") {
+//     console.log("Must Stop")
+// } else if(trafficLight.toLowerCase() === "yellow") {
+//     console.log("Ready to move")
+// } else if(trafficLight.toLowerCase() === "green") {
+//     console.log("Move now")
+// } else {
+//     console.log("Please Enter only red, yellow and green color")
+// };
+
+// task 46 :
+// var fuelMeter = +prompt("Please Enter Your Fuel Amount in litres without unit");
+// if(fuelMeter < 0.25) {
+//     console.log("Please Refill The Fuel in Your Car");
+// } else {
+//     console.log("You are Good to Go");
+// };
+
+// task 47 :
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+
+// if (totalCost === materialCost + laborCost) {
+//     alert("The cost equals");
+// };
+
+// var a = 4;
+// var b = 82;
+// var c = 12;
+
+// if (++a === 5) {
+//     alert("given condition for a variable a is true");
+// };
+
+// if (b++ === 83) {
+//     alert("given condition for a variable b is true");
+// };
+
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// };
+
+// if (c === 13) {
+//     alert("condition 2 is true");
+// };
+
+// if (++c < 14) {
+//     alert("condition 3 is true");
+// };
+
+// if (c === 14) {
+//     alert("condition 4 is true");
+// };
+
+// if (true) {
+//     alert("True")
+// };
+
+// if (false) {
+//     alert("False")
+// };
+
+// if ("car" < "cat") {
+//     alert("car is smaller than cat")
+// };
+
+// task 48 :
