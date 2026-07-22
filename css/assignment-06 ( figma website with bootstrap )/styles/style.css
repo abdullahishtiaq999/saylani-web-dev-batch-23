@@ -1,3 +1,8 @@
+a {
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
 /* custom styling */
 
 .card {

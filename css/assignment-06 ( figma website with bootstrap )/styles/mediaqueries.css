@@ -4,6 +4,10 @@
     .card .right img {
         height: 130px !important;
     }
+
+    .services-section .row:nth-child(3) img {
+        width: 75% !important;
+    }
 }
 
 @media screen and (width >=768px) and (width <=992px) {
@@ -13,6 +17,10 @@
 
     .card .left h3 {
         font-size: 1.2rem;
+    }
+
+    .services-section .row:nth-child(3) img {
+        width: 90% !important;
     }
 }
 
@@ -28,7 +36,7 @@
     }
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width <=768px) {
     .card .right img {
         height: 120px !important;
     }
