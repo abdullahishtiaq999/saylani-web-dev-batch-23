@@ -1,0 +1,35 @@
+/* custom media queries */
+
+@media screen and (width <=1200px) and (width > 992px) {
+    .card .right img {
+        height: 130px !important;
+    }
+}
+
+@media screen and (width >=768px) and (width <=992px) {
+    #hero-image {
+        width: 85% !important;
+    }
+
+    .card .left h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (width > 768px) {
+    .infinite-scroll>.row {
+        text-align: left !important;
+    }
+}
+
+@media screen and (width <=992px) {
+    .card .right img {
+        height: 90px !important;
+    }
+}
+
+@media screen and (width <= 768px) {
+    .card .right img {
+        height: 120px !important;
+    }
+}

@@ -1,0 +1,14 @@
+/* custom styling */
+
+.card {
+    border-inline: 2px solid var(--dark-color) !important;
+    border-top: 2px solid var(--dark-color) !important;
+}
+
+.card .right img {
+    height: 170px !important;
+}
+
+.card .left img {
+    height: 35px;
+}

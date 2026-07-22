@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-
 /* root styling */
 
 :root {
@@ -15,6 +14,10 @@
     --primary-font: "Space Grotesk", sans-serif;
 
     --margin-bottom: 6rem;
+}
+
+body {
+    font-family: var(--primary-font);
 }
 
 /* utilities */
@@ -57,39 +60,4 @@
 
 .mb-l {
     margin-bottom: var(--margin-bottom) !important;
-}
-
-/* css reset */
-
-:is(*, *::after, *::before) {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-:is(ul, ol) {
-    list-style-type: none;
-}
-
-body {
-    font-family: var(--primary-font);
-}
-
-/* custom media queries */
-
-@media screen and (width >=768px) and (width <=992px) {
-    #hero-image {
-        width: 85% !important;
-    }
-}
-
-@media screen and (width > 768px) {
-    .infinite-scroll>.row {
-        text-align: left !important;
-    }
 }
