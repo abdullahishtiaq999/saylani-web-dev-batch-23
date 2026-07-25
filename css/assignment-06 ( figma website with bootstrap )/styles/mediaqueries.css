@@ -38,10 +38,39 @@
     .card .right img {
         height: 90px !important;
     }
+
+    ::-webkit-scrollbar {
+        height: 0;
+    }
+
+    .case-section .row:last-child {
+        background-color: transparent !important;
+        border-radius: 0 !important;
+        column-gap: 1rem;
+        padding: 1rem !important;
+    }
+
+    .case-section .row:last-child .col-4 {
+        background-color: #000000;
+        border-radius: 4rem;
+        border-right: none !important;
+        padding: 5rem 2rem;
+        width: 60% !important;
+    }
 }
 
 @media screen and (width <=768px) {
     .card .right img {
         height: 120px !important;
+    }
+
+    .case-section .row:last-child .col-4 {
+        width: 90% !important;
+    }
+}
+
+@media screen and (width < 400px) {
+    .navbar-brand {
+        width: 70% !important;
     }
 }
