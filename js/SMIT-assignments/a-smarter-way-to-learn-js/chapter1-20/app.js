@@ -429,3 +429,120 @@
 // };
 
 // task 48 :
+
+// var totalMarks = 300;
+// var sub1Marks = +prompt("Please Enter Your Subject 1 Numbers");
+// var sub2Marks = +prompt("Please Enter Your Subject 2 Numbers");
+// var sub3Marks = +prompt("Please Enter Your Subject 3 Numbers");
+
+// var percentage = (sub1Marks + sub2Marks + sub3Marks) / totalMarks * 100;
+// var grade;
+// var remarks = null;
+
+// if (percentage >= 80 && percentage <= 100) {
+//     grade = "A-one";
+//     remarks = "Excellent";
+// } else if (percentage >= 70 && percentage < 80) {
+//     grade = "A"
+//     remarks = "Good"
+// } else if (percentage >= 60 && percentage < 70) {
+//     grade = "B";
+//     remarks = "You need to Improve";
+// } else if (percentage >= 0 && percentage < 60) {
+//     grade = "Fail";
+//     remarks = "Sorry;"
+// }
+
+// document.write("<h1>Marks Sheet</h1> <br /> <br />");
+// document.write("<div>Total Marks: " + totalMarks + "</div>");
+// document.write("<div>Marks Obtained: " + (sub1Marks + sub2Marks + sub3Marks) + "</div>");
+// document.write("<div>Percentage: " + percentage + "%" + "</div>");
+// document.write("<div>Garde: " + grade + "</div>");
+// document.write("<div>Remarks: " + remarks + "</div>");
+
+// task 49 :
+
+// var num = 1;
+// var userNum = +prompt("Please Enter a Number Between 1 to 10");
+
+// if (num === userNum) {
+//     alert("Bingo! Corerct Answer");
+// } else if (num + 1 === userNum) {
+//     alert("Close enough to the correct answer");
+// } else {
+//     alert("Try Again");
+// };
+
+// task 50
+
+// var num = 40;
+
+// if (num % 3 === 0) {
+//     alert("Number is Divisible by 3");
+// } else {
+//     alert("Number is not Dividible by 3");
+// };
+
+// task 51
+
+// var num = 4;
+// if (num % 2 === 0) {
+//     alert("Even")
+// } else {
+//     alert("Odd");
+// };
+
+// task 52
+
+// var temp = 60;
+
+// if (temp > 40) {
+//     alert("Is Is to Hot")
+// } else if (temp > 30) {
+//     alert("The Weather Today is Normal")
+// } else if (temp > 20) {
+//     alert("Today's Weather is Cool")
+// } else if (temp > 10) {
+//     alert("OMG! Today's weather is so cool")
+// } else {
+//     alert("Please Enter a valid temprature")
+// };
+
+// task 53
+
+// var num1 = +prompt("Please Enter first number");
+// var num2 = +prompt("Please Enter second number");
+// var opr = prompt("Please Enter operator");
+
+// if (opr === "+") {
+//     alert(num1 + num2);
+// } else if (opr === "-") {
+//     alert(num1 - num2);
+// } else if (opr === "*") {
+//     alert(num1 * num2)
+// } else if (opr === "/") {
+//     alert(num1 / num2);
+// } else if (opr === "%") {
+//     alert(num1 % num2);
+// } else {
+//     alert("Please Enter valid Numbers and a valid operator");
+// };
+
+// task 54
+
+// var startingSmallLetters = "a";
+// var endingSmallLetters = "z";
+// var startingCapLetters = "A";
+// var EndingCapLetters = "Z";
+
+// var charc = prompt("Please Enter a Character");
+
+// if (!isNaN(charc)) {
+//     alert("Digit")
+// } else if (charc >= startingSmallLetters && charc <= endingSmallLetters) {
+//     alert("Small Letter");
+// } else if (charc >= startingCapLetters && charc <= EndingCapLetters) {
+//     alert("Capital Letter")
+// } else {
+//     alert("Please Enter a valid character")
+// };
