@@ -73,3 +73,82 @@
 //         console.log("even number is", nums[i]);
 //     };
 // };
+
+// task 11
+
+// var marks = [50, 60, 45, 39, 78, 44];
+// var totalMarks = 600;
+// var totalObtainedMarks = 0;
+// var percentage = null;
+// var grade = null;
+
+// for (var i = 0; i < marks.length; i++) {
+//     totalObtainedMarks += marks[i];
+// };
+
+// percentage = totalObtainedMarks / totalMarks * 100;
+
+// if (percentage >= 90 && percentage <= 100) {
+//     grade = "A-one"
+//     console.log("Your Marks: " + marks);
+//     console.log("Your Percentage " + percentage);
+//     console.log("Your Grade: " + grade);
+// } else if (percentage >= 80) {
+//     grade = "A"
+//     console.log("Your Marks: " + marks);
+//     console.log("Your Percentage " + percentage);
+//     console.log("Your Grade: " + grade);
+// } else if (percentage >= 70) {
+//     grade = "B"
+//     console.log("Your Marks: " + marks);
+//     console.log("Your Percentage " + percentage);
+//     console.log("Your Grade: " + grade);
+// } else if (percentage >= 60) {
+//     grade = "C"
+//     console.log("Your Marks: " + marks);
+//     console.log("Your Percentage " + percentage);
+//     console.log("Your Grade: " + grade);
+// } else if (percentage >= 0) {
+//     grade = "Fail"
+//     console.log("Your Marks: " + marks);
+//     console.log("Your Percentage " + percentage);
+//     console.log("Your Grade: " + grade);
+// } else {
+//     console.log("Not valid marks");
+// };
+
+// task 12
+
+// var nums = [1, 2, 3, 4, 5, 6, 7, 8, 934, 65, 23, 65];
+// var largestNumber = nums[0];
+// var smallestNumber = nums[0];
+
+// for (var i = 0; i < nums.length; i++) {
+//     if (largestNumber < nums[i]) {
+//         largestNumber = nums[i];
+//     };
+
+//     if (smallestNumber > nums[i]) {
+//         smallestNumber = nums[i];
+//     };
+// };
+
+// console.log("Largest Number:", largestNumber);
+// console.log("Smallest Number:", smallestNumber);
+
+// task 13
+
+// var userName = prompt("Please Enter Your User Name");
+// if (userName === "admin123") {
+//     var userPass = +prompt("Please Enter Your Password");
+//     if (userPass === 1234) {
+//         console.log("Welcome Back");
+//     } else {
+//         console.log("Wrong Password");
+//     };
+// } else {
+//     console.log("Wrong Username");
+// };
+
+// task 14
+
