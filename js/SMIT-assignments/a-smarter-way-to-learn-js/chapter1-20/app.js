@@ -530,19 +530,126 @@
 
 // task 54
 
-// var startingSmallLetters = "a";
-// var endingSmallLetters = "z";
-// var startingCapLetters = "A";
-// var EndingCapLetters = "Z";
-
 // var charc = prompt("Please Enter a Character");
-
 // if (!isNaN(charc)) {
 //     alert("Digit")
-// } else if (charc >= startingSmallLetters && charc <= endingSmallLetters) {
+// } else if (charc >= "a" && charc <= "z") {
 //     alert("Small Letter");
-// } else if (charc >= startingCapLetters && charc <= EndingCapLetters) {
+// } else if (charc >= "A" && charc <= "Z") {
 //     alert("Capital Letter")
 // } else {
 //     alert("Please Enter a valid character")
 // };
+
+// task 55
+
+// var num1 = Math.trunc(+prompt("Please Enter an integer number"));
+// var num2 = Math.trunc(+prompt("Please Enter a second integer number"));
+// if (num1 > num2) {
+//     alert("Greater Number is" + " " + num1);
+// } else {
+//     alert("Greater Number is" + " " + num2)
+// }
+
+// task 56
+
+// var num = +prompt("Please Enter a Number");
+// if (num > 0) {
+//     alert(num + " is positive")
+// } else {
+//     alert(num + " is negative");
+// };
+
+// task 57
+
+// var charc = prompt("Please enter any letter between a to z").toLowerCase();
+// if (charc.length === 1) {
+//     if (charc === "a" || charc === "e" || charc === "i" || charc === "o" || charc === "u") {
+//         alert(charc + " is vowel")
+//     } else {
+//         alert(charc + " is consonant")
+//     };
+// } else {
+//     alert("Please Enter Only one letter")
+// };
+
+// task 58
+
+// var correctPassword = 1234;
+// var confirmPassword = +prompt("Please Enter a Password");
+// if (confirmPassword !== 0) {
+//     if (confirmPassword === correctPassword) {
+//         alert("Correct! The password you entered matches the original password");
+//     } else {
+//         alert("Incorrect Password");
+//     };
+// } else {
+//     alert("Please Enter a Password");
+// };
+
+// task 59
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good Day"
+//     alert(greeting);
+// } else {
+//     greeting = "Good evening"
+//     alert(greeting);
+// };
+
+// task 60
+
+// var timeIn24HoursFormat = +prompt("Please Enter a time in 24 hours format");
+
+// if (timeIn24HoursFormat > 13) {
+//     timeIn24HoursFormat -= 12;
+//     alert(timeIn24HoursFormat + ":pm");
+// } else {
+//     alert(timeIn24HoursFormat + ":am");
+// };
+
+// task 61
+
+// var studentNames = [];
+
+// task 62
+
+// var studentNames = new Array();
+
+// task 63
+
+// var names = ["abdullah", "ali", "ahmed"];
+// console.log(names);
+
+// task 64
+
+// var ages = [16, 25, 20];
+// console.log(ages);
+
+// task 65
+
+// var isPass = [true , false , true];
+// console.log(isPass);
+
+// task 66
+
+// var studentData = ["abdullah" , 16 , true];
+// console.log(studentData);
+
+// task 67
+
+var eduQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "MBBS", "M.Phil", "PHD"];
+document.write("<h1>Qualifications</h1>");
+document.write(`<ol>
+<li>${eduQualifications[0]}</li>    
+<li>${eduQualifications[1]}</li>    
+<li>${eduQualifications[2]}</li>    
+<li>${eduQualifications[3]}</li>    
+<li>${eduQualifications[4]}</li>    
+<li>${eduQualifications[5]}</li>    
+<li>${eduQualifications[6]}</li>    
+<li>${eduQualifications[7]}</li>    
+<li>${eduQualifications[8]}</li>    
+</ol>`);
