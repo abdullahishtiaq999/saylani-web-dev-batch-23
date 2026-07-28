@@ -640,16 +640,113 @@
 
 // task 67
 
-var eduQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "MBBS", "M.Phil", "PHD"];
-document.write("<h1>Qualifications</h1>");
-document.write(`<ol>
-<li>${eduQualifications[0]}</li>    
-<li>${eduQualifications[1]}</li>    
-<li>${eduQualifications[2]}</li>    
-<li>${eduQualifications[3]}</li>    
-<li>${eduQualifications[4]}</li>    
-<li>${eduQualifications[5]}</li>    
-<li>${eduQualifications[6]}</li>    
-<li>${eduQualifications[7]}</li>    
-<li>${eduQualifications[8]}</li>    
-</ol>`);
+// var eduQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "MBBS", "M.Phil", "PHD"];
+// document.write("<h1>Qualifications</h1>");
+// document.write(`<ol>
+// <li>${eduQualifications[0]}</li>
+// <li>${eduQualifications[1]}</li>
+// <li>${eduQualifications[2]}</li>
+// <li>${eduQualifications[3]}</li>
+// <li>${eduQualifications[4]}</li>
+// <li>${eduQualifications[5]}</li>
+// <li>${eduQualifications[6]}</li>
+// <li>${eduQualifications[7]}</li>
+// <li>${eduQualifications[8]}</li>
+// </ol>`);
+
+// task 68
+
+// var names = ["abdullah", "ali", "ahmed"];
+// var scores = [460, 390, 431];
+// var totalMarks = 500;
+
+// console.log("Score of" + " " + names[0] + " " + "is" + " " + scores[0] + ". " + "Percentage:" + " " + (scores[0] / totalMarks * 100) + "%");
+// console.log("Score of" + " " + names[1] + " " + "is" + " " + scores[1] + ". " + "Percentage:" + " " + (scores[1] / totalMarks * 100) + "%");
+// console.log("Score of" + " " + names[2] + " " + "is" + " " + scores[2] + ". " + "Percentage:" + " " + (scores[2] / totalMarks * 100) + "%");
+
+// task 69
+
+// var colors = ["red", "green", "blue", "orange", "purple"];
+// console.log("After Initialization :", colors);
+// // a
+// var startingColor = prompt("Please Enter a color in the begining");
+// colors.unshift(startingColor);
+// console.log("After adding in the start :", colors);
+// // b
+// var endingColor = prompt("Please enter a color at the end of the array");
+// colors.push(endingColor);
+// console.log("After adding in the end :", colors);
+// // c
+// var startingColor1 = prompt("Please Enter a color to add in the begning of the array");
+// var startingColor2 = prompt("Please Enter a second color to add in the begning of the array");
+// colors.unshift(startingColor1, startingColor2);
+// console.log("After adding 2 colors in the start :", colors);
+// // d
+// colors.shift();
+// console.log("After removing first color :", colors);
+// // e
+// colors.pop();
+// console.log("After removing last color :", colors);
+// // f
+// var addAtIndex = +prompt("Please Type an index at which you want to add a new color");
+// var addAtColor = prompt("Please Enter Your Color name");
+// colors.splice(addAtIndex, 0, addAtColor);
+// console.log(colors);
+// // g
+// var removeAtIndex = +prompt("Please Enter an index at which you want to remove a color");
+// colors.splice(removeAtIndex, 1);
+// console.log(colors);
+
+// task 70
+
+// var nums = [320, 230, 480, 120];
+// console.log(nums);
+// nums.sort();
+// console.log(nums);
+
+// task 71
+
+// var cityNames = ["karachi", "lahore", "faisalabad", "islamabad", "rawalpindi", "multan"];
+// var selectedCities = cityNames.slice(0, 3);
+// console.log(cityNames);
+// console.log(selectedCities);
+
+// task 72
+
+// var arr = ["this", "is", "my", "cat"];
+// var sent = arr.join(" ");
+// console.log(arr);
+// console.log(sent);
+
+// task 73
+
+// var names = ["abdullah", "ali", "ahmed"];
+// console.log(names);
+// names.shift();
+// names.shift();
+// console.log(names);
+
+// task 74
+
+// var names = ["abdullah", "ali", "ahmed"];
+// names.pop();
+// names.pop();
+// console.log(names);
+
+// task 75
+
+// var manufacturers = ["Apple", "Samsung", "Vivo", "Oppo", "Realme", "OnePlus", "Nokia", "Tecno", "Redmi"];
+// document.write(`<select>
+// <option value="${manufacturers[0]}">${manufacturers[0]}</option>
+// <option value="${manufacturers[1]}">${manufacturers[1]}</option>
+// <option value="${manufacturers[2]}">${manufacturers[2]}</option>
+// <option value="${manufacturers[3]}">${manufacturers[3]}</option>
+// <option value="${manufacturers[4]}">${manufacturers[4]}</option>
+// <option value="${manufacturers[5]}">${manufacturers[5]}</option>
+// <option value="${manufacturers[6]}">${manufacturers[6]}</option>
+// <option value="${manufacturers[7]}">${manufacturers[7]}</option>
+// <option value="${manufacturers[8]}">${manufacturers[8]}</option>
+// </select>`)
+
+// task 76
+
