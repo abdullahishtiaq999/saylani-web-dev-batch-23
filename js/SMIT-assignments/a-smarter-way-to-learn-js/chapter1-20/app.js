@@ -750,3 +750,47 @@
 
 // task 76
 
+// var multiDimensionalArray = [[[], [], []], [[], [], []]];
+
+// task 77
+
+// var multiArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]];
+// console.log(multiArray);
+
+// task 78
+// additional :
+// var tiTacToe = [["O", "O", "X"], ["O", "X", " "], ["X", "O", "X"]];
+// console.log(tiTacToe);
+
+// task 79
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+
+// task 80
+
+// var tableNum = +prompt("Please enter a number to show it's multiplication table");
+// var lengthOfTable = +prompt("Please Enter a length of a table");
+// for (var i = 1; i <= lengthOfTable; i++) {
+//     console.log(tableNum + " x " + i + " = " + tableNum * i);
+// };
+
+// task 81
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (var i = 0; i < fruits.length; i++) {
+//     console.log("Element at index" + " " + i + " is " + fruits[i]);
+// };
+
+// task 82
+
+// a : counting
+// var countingList = [];
+// for (var i = 1; i <= 20; i++) {
+//     countingList.push(i);
+// };
+// console.log(countingList);
+
+// b : reverse counting
+
