@@ -785,12 +785,91 @@
 
 // task 82
 
-// a : counting
+// // a : counting
 // var countingList = [];
 // for (var i = 1; i <= 20; i++) {
 //     countingList.push(i);
 // };
-// console.log(countingList);
+// console.log("Counting :", countingList.toString());
 
-// b : reverse counting
+// // b : reverse counting
+// var reverseCountingList = [];
+// for (var i = 20; i >= 1; i--) {
+//     reverseCountingList.push(i);
+// }
+// console.log("Reverse Counting :", reverseCountingList.toString());
 
+// // c : even numbers
+// var evenNumbersList = [];
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 === 0 && i !== 0) {
+//         evenNumbersList.push(i);
+//     };
+// };
+// console.log("Even Numbers :", evenNumbersList.toString());
+
+// // d : odd numbers
+// var oddNumbersList = [];
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 !== 0 && i !== 0) {
+//         oddNumbersList.push(i);
+//     };
+// };
+// console.log("Odd Numbers :", oddNumbersList.toString());
+
+// // e : series
+// var seriesNumbersList = [];
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 === 0 && i !== 0) {
+//         seriesNumbersList.push(i + "K");
+//     };
+// };
+// console.log("Series :", seriesNumbersList.toString());
+
+// task 83
+
+// var storeProductsList = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userSearch = prompt("Welcome to ABC bakery, what do you want to order").toLowerCase();
+// var isProductFound = false;
+// var ind = null
+// for (var i = 0; i < storeProductsList.length; i++) {
+//     if (userSearch === storeProductsList[i]) {
+//         isProductFound = true;
+//         ind = i;
+//     };
+// };
+// if (isProductFound) {
+//     console.log(userSearch + " is available at index " + ind + " in our bakery.");
+// } else {
+//     console.log(" We are sorry " + userSearch + " is not available in our bakery.");
+// };
+
+// task 84
+
+// var numList = [24, 53, 78, 91, 12];
+// var largestNum = numList[0];
+// for (var i = 0; i < numList.length; i++) {
+//     if (largestNum < numList[i]) {
+//         largestNum = numList[i];
+//     };
+// };
+// console.log("Largest Number is " + largestNum);
+
+// task 85
+
+// var numList = [24, 53, 78, 91, 12];
+// var smallestNum = numList[0];
+// for (var i = 0; i < numList.length; i++) {
+//     if (smallestNum > numList[i]) {
+//         smallestNum = numList[i];
+//     };
+// };
+// console.log("Smallest Number is " + smallestNum);
+
+// task 86
+
+// var multipleOf5List = [];
+// for (var i = 5; i <= 100; i += 5) {
+//     multipleOf5List.push(i);
+// };
+// console.log("Multiple of 5 upto 100 is : " + multipleOf5List.toString());
