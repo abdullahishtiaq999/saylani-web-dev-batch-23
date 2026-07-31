@@ -119,11 +119,27 @@
 
 // task 12
 
-// var nums = [1, 2, 3, 4, 5, 6, 7, 8, 934, 65, 23, 65];
+// var nums = [1, 2, 3, 4, 5, 6, -7, 8, 934, -65, 23, 65];
 // var largestNumber = nums[0];
 // var smallestNumber = nums[0];
+// var evenNumberList = [];
+// var oddNumberList = [];
+// var positiveNumberList = [];
+// var negativeNumberList = [];
+
 
 // for (var i = 0; i < nums.length; i++) {
+
+//     // even and odd numbers
+
+//     if (nums[i] % 2 === 0 && nums[i] > 0) {
+//         evenNumberList.push(nums[i]);
+//     } else if (nums[i] !== 0 && nums[i] > 0) {
+//         oddNumberList.push(nums[i]);
+//     };
+
+//     // smallest and largest numbers
+
 //     if (largestNumber < nums[i]) {
 //         largestNumber = nums[i];
 //     };
@@ -131,10 +147,23 @@
 //     if (smallestNumber > nums[i]) {
 //         smallestNumber = nums[i];
 //     };
+
+//     // positive and negative numbers
+
+//     if (nums[i] > 0) {
+//         positiveNumberList.push(nums[i]);
+//     } else if (nums[i] < 0) {
+//         negativeNumberList.push(nums[i])
+//     }
+
 // };
 
 // console.log("Largest Number:", largestNumber);
 // console.log("Smallest Number:", smallestNumber);
+// console.log("Even Numbers:", evenNumberList);
+// console.log("Odd Numbers:", oddNumberList);
+// console.log("Positive Numbers:", positiveNumberList);
+// console.log("Negative Numbers:", negativeNumberList);
 
 // task 13
 
@@ -152,3 +181,53 @@
 
 // task 14
 
+// var products = ["rice", "sugar", "milk", "oil", "tea"];
+// var prices = [180, 150, 240, 500, 200];
+// var totalPrice = 0;
+// var disc = 0;
+
+// for (var i = 0; i < products.length; i++) {
+//     console.log("Price of " + products[i] + " is " + prices[i]);
+//     totalPrice += prices[i];
+// };
+
+// if (totalPrice >= 1500) {
+//     disc = 20;
+// } else if (totalPrice > 1200) {
+//     disc = 15;
+// } else if (totalPrice > 1000) {
+//     disc = 10;
+// } else {
+//     disc = 0;
+// };
+
+// if (totalPrice > 1000) {
+//     console.log("congrats you got " + disc + "% discount. your bill before discount is: " + totalPrice + " and after discount is: " + (totalPrice - (totalPrice * disc / 100)));
+// } else if (totalPrice > 1200) {
+//     console.log("congrats you got " + disc + "% discount. your bill before discount is: " + totalPrice + " and after discount is: " + (totalPrice - (totalPrice * disc / 100)));
+// } else if (totalPrice >= 1500) {
+//     console.log("congrats you got " + disc + "% discount. your bill before discount is: " + totalPrice + " and after discount is: " + (totalPrice - (totalPrice * disc / 100)));
+// } else {
+//     console.log("Your total bill is: " + totalPrice);
+// };
+
+// task 15
+
+// var names = ["abdullah", "ali", "ahmed", "aryan", "altaf"];
+// var attend = [77.2, 84, 68.7, 81, 49];
+// var allowedStudentsList = [];
+// var notAllowedStudentsList = [];
+// var minAtten = 75;
+
+// for (var i = 0; i < names.length; i++) {
+//     if (attend[i] >= minAtten) {
+//         allowedStudentsList.push(names[i]);
+//     } else {
+//         notAllowedStudentsList.push(names[i]);
+//     };
+// };
+
+// console.log("Allowed Students are:", allowedStudentsList);
+// console.log("Not allowed Students are:", notAllowedStudentsList);
+
+// task 16
