@@ -232,3 +232,77 @@
 
 // task 16
 
+// var secNum = 8;
+// var guessesList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (var i = 0; i < guessesList.length; i++) {
+//     if (guessesList[i] > secNum) {
+//         console.log("To High");
+//     } else if (guessesList[i] < secNum) {
+//         console.log("To Low");
+//     } else {
+//         console.log("Correct");
+//     };
+// };
+
+// task 17
+
+// var moviesList = ["dhurandar", "pushpa", "bahubali", "pk", "3 idiots", "money heist", "squid game", "dhool", "dhamaal"];
+// var ratingsList = [4.5, 8, 9.6, 8.7, 9, 10, 7.5, 6.2, 7];
+
+// for (var i = 0; i < moviesList.length; i++) {
+//     if (ratingsList[i] >= 8) {
+//         console.log(moviesList[i] + " is Excellent");
+//     } else if (ratingsList[i] >= 6) {
+//         console.log(moviesList[i] + " is Good");
+//     } else if (ratingsList[i] >= 5) {
+//         console.log(moviesList[i] + " is Average")
+//     } else {
+//         console.log(moviesList[i] + " is Poor")
+//     };
+// };
+
+// task 18
+
+// var temp = [30, 40, 78, 15];
+
+// for (var i = 0; i < temp.length; i++) {
+//     if (temp[i] >= 40) {
+//         console.log("Temperature is Hot")
+//     } else if (temp[i] >= 30) {
+//         console.log("Temperature is Normal")
+//     } else if (temp[i] >= 20) {
+//         console.log("Temperature is Cold");
+//     } else {
+//         console.log("Temperature is Very Cold");
+//     };
+// };
+
+// task 19
+
+// var balance = 83465;
+// var trans = [
+//     {
+//         withdraw: 1200,
+//         deposit: 4000
+//     },
+//     {
+//         withdraw: 1800,
+//         deposit: 1000
+//     },
+//     {
+//         withdraw: 600,
+//         deposit: 2500
+//     }
+// ];
+
+// for (var i = 0; i < trans.length; i++) {
+//     balance += trans[i].deposit;
+//     balance -= trans[i].withdraw;
+// }
+// console.log(balance)
+
+
+// task 20
+
+// var subjectsList = [78, 69, 40, 89, 50];
