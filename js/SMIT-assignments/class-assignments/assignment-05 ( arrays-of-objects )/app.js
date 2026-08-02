@@ -67,42 +67,42 @@
 
 // task 6
 
-var marksList = [
-  {
-    subject: "biology",
-    marks: 83,
-  },
-  {
-    subject: "physics",
-    marks: 61,
-  },
-  {
-    subject: "chemistry",
-    marks: 34,
-  },
-  {
-    subject: "mathematics",
-    marks: 76,
-  },
-  {
-    subject: "pakistan studies",
-    marks: 55,
-  },
-];
+// var marksList = [
+//   {
+//     subject: "biology",
+//     marks: 83,
+//   },
+//   {
+//     subject: "physics",
+//     marks: 61,
+//   },
+//   {
+//     subject: "chemistry",
+//     marks: 34,
+//   },
+//   {
+//     subject: "mathematics",
+//     marks: 76,
+//   },
+//   {
+//     subject: "pakistan studies",
+//     marks: 55,
+//   },
+// ];
 
-var totalMarks = 0;
-var percentage = null;
+// var totalMarks = 0;
+// var percentage = null;
 
-for (var i = 0; i < marksList.length; i++) {
-  totalMarks += marksList[i].marks;
+// for (var i = 0; i < marksList.length; i++) {
+//   totalMarks += marksList[i].marks;
 
-  if (marksList[i].marks < 40) {
-    console.log("You Failed in " + marksList[i].subject);
-  }
-}
+//   if (marksList[i].marks < 40) {
+//     console.log("You Failed in " + marksList[i].subject);
+//   }
+// }
 
-percentage = (totalMarks / (marksList.length * 100)) * 100;
+// percentage = (totalMarks / (marksList.length * 100)) * 100;
 
-console.log("Total Marks: " + marksList.length * 100);
-console.log("Obtained Marks: " + totalMarks);
-console.log("Percentage: " + percentage + "%");
+// console.log("Total Marks: " + marksList.length * 100);
+// console.log("Obtained Marks: " + totalMarks);
+// console.log("Percentage: " + percentage + "%");

@@ -322,3 +322,100 @@
 // console.log("Percentage: " + percentage + "%");
 
 // task 21
+
+// var fruits = ["mango", "apple", "banana", "orange", "grapes"];
+// var fruitIndex = -1;
+// var userFruit = prompt("Please Enter a Fruit that you don't like");
+
+// if (userFruit !== null) {
+//   userFruit.toLowerCase().trim();
+// }
+
+// for (var i = 0; i < fruits.length; i++) {
+//   if (userFruit === fruits[i]) {
+//     fruitIndex = i;
+//   }
+// }
+
+// if (fruitIndex !== -1) {
+//   fruits.splice(fruitIndex, 1);
+//   console.log("Updated Array:", fruits);
+// } else {
+//   console.log("Sorry, we don't have the " + userFruit + " fruit.");
+// }
+
+// task 22
+
+// var foodItemsList = ["meat", "fish", "milk", "snacks", "oil"];
+// var pricesList = [1400, 560, 240, 100, 500];
+// var totalPrice = 0;
+
+// for (var i = 0; i < foodItemsList.length; i++) {
+//   var isFood = confirm("Would you like to buy " + foodItemsList[i]);
+
+//   if (isFood) {
+//     totalPrice += pricesList[i];
+//   }
+// }
+
+// console.log("Your Total bill is: " + totalPrice);
+
+// task 23
+
+// var salariesList = [14000, 56000, 40000, 98000, 125000];
+// var highestSalary = salariesList[0];
+// var bonusAmount = 0;
+
+// for (var i = 0; i < salariesList.length; i++) {
+//   if (highestSalary < salariesList[i]) {
+//     highestSalary = salariesList[i];
+//   }
+// }
+
+// if (highestSalary >= 120000) {
+//   bonusAmount = (highestSalary * 20) / 100;
+// } else if (highestSalary >= 100000) {
+//   bonusAmount = (highestSalary * 15) / 100;
+// } else if (highestSalary >= 50000) {
+//   bonusAmount = (highestSalary * 10) / 100;
+// } else {
+//   bonusAmount = (highestSalary * 8) / 100;
+// }
+
+// highestSalary += bonusAmount;
+
+// console.log(
+//   "Your Salary has incresed by Rs. " +
+//     bonusAmount +
+//     " and your final salary is Rs. " +
+//     highestSalary
+// );
+
+// task 24
+
+// var agesList = [24, 16, 57, 40, 32, 89];
+// var childs = [];
+// var adults = [];
+// var teenagers = [];
+// var middle_aged = [];
+// var seniors = [];
+
+// for (var i = 0; i < agesList.length; i++) {
+//   if (agesList[i] >= 65) {
+//     seniors.push(i);
+//   } else if (agesList[i] >= 40) {
+//     middle_aged.push(i);
+//   } else if (agesList[i] >= 20) {
+//     adults.push(i);
+//   } else if (agesList[i] >= 13) {
+//     teenagers.push(i);
+//   } else {
+//     childs.push(i);
+//   }
+// }
+
+// console.log("Total Seniors are: " + seniors.length);
+// console.log("Total Middle Aged are: " + middle_aged.length);
+// console.log("Total Adults are: " + adults.length);
+// console.log("Total TeenAgers are: " + teenagers.length);
+// console.log("Total Childs are: " + childs.length);
