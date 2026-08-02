@@ -127,7 +127,6 @@
 // var positiveNumberList = [];
 // var negativeNumberList = [];
 
-
 // for (var i = 0; i < nums.length; i++) {
 
 //     // even and odd numbers
@@ -302,7 +301,24 @@
 // }
 // console.log(balance)
 
-
 // task 20
 
 // var subjectsList = [78, 69, 40, 89, 50];
+// var totalMarks = 0;
+// var percentage = 0;
+
+// for (var i = 0; i < subjectsList.length; i++) {
+//   totalMarks += subjectsList[i];
+
+//   if (subjectsList[i] < 40) {
+//     console.log("You Failed in Subject " + (i + 1));
+//   }
+// }
+
+// percentage = (totalMarks / (subjectsList.length * 100)) * 100;
+
+// console.log("Total Marks: " + subjectsList.length * 100);
+// console.log("Obtained Marks: " + totalMarks);
+// console.log("Percentage: " + percentage + "%");
+
+// task 21
