@@ -297,7 +297,7 @@ var products = [
 //     for(var j=0; j < products[i].variations.length; j++) {
 
 //         if(products[i].variations[j].color === "black") {
-            
+
 //             console.log(products[i].variations[j])
 //         }
 //     }
@@ -307,7 +307,7 @@ var products = [
 // task 14
 
 // for(var i =0; i < products.length; i++) {
-    
+
 //     for(var j =0; j < products[i].reviews.length; j++) {
 
 //         if(products[i].reviews[j].status) {
@@ -336,3 +336,70 @@ var products = [
 // }
 
 // task 16
+
+// var commentsList = []
+
+// for(var i =0; i < products.length; i++) {
+
+//     for(var j =0; j < products[i].reviews.length; j++) {
+
+//         commentsList.push(products[i].reviews[j].comment)
+//     }
+// }
+
+// for(var k = 0; k < commentsList.length; k++) {
+//     console.log(commentsList[k])
+// }
+
+// task 17
+
+// var highestPrice = 0;
+
+// for(var i=0; i < products.length; i++) {
+
+//     if(products[highestPrice].price <= products[i].price) {
+//         highestPrice = i
+//     }
+// }
+
+// console.log(products[highestPrice].title)
+// console.log(products[highestPrice].price)
+
+// task 18
+
+// var lowestPrice = 0
+
+// for(var i = 0; i < products.length; i++) {
+
+//     if(products[lowestPrice].price >= products[i].price) {
+//         lowestPrice = i
+//     }
+// }
+
+// console.log(products[lowestPrice].title)
+// console.log(products[lowestPrice].price)
+
+// task 19
+
+// var totalRating = 0;
+// var avgRating = 0;
+
+// for (var i = 0; i < products.length; i++) {
+//   for (var j = 0; j < products[i].reviews.length; j++) {
+//     totalRating += products[i].reviews[j].rating;
+//   }
+
+//   avgRating = totalRating / products[i].reviews.length;
+
+//   if (avgRating >= 4.5) {
+//     productIndex = i;
+//     console.log(products[i].title);
+//     console.log(avgRating);
+//   }
+
+//   totalRating = 0;
+//   avgRating = 0;
+// }
+
+// task 20
+
