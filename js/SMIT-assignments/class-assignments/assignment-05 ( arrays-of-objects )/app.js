@@ -210,14 +210,14 @@ var products = [
       },
     ],
   },
-]
+];
 
 // var totalRating = 0
 // var avgRating = 0
 // var reviewsCount = 0
 
 // for (var i = 0; i < products.length; i++) {
-    
+
 //     for(var j =0 ; j < products[i].reviews.length; j++) {
 //         totalRating += products[i].reviews[j].rating
 //     }
@@ -234,3 +234,105 @@ var products = [
 // }
 
 // task 8
+
+// for(var i =0; i < products.length; i++) {
+//     console.log(products[i].title)
+// }
+
+// task 9
+
+// for(var i =0; i < products.length; i++) {
+
+//     if(products[i].price <= 25000) {
+//         console.log(`Products That has less then 25k price is: ${products[i].title}`)
+//     }
+// }
+
+// task 10
+
+// var totalStock = 0
+// for (var i = 0; i < products.length; i++) {
+
+//     for(var j=0; j < products[i].variations.length; j++) {
+//         totalStock += products[i].variations[j].quantity
+//     }
+
+//     console.log(`Total Available Stock of ${products[i].title} is ${totalStock}`)
+
+//     totalStock = 0
+// }
+
+// task 11
+
+// var totalStock = 0
+
+// for(var i =0; i < products.length; i++) {
+
+//     for(var j =0; j < products[i].variations.length; j++) {
+//         totalStock += products[i].variations[j].quantity
+//     }
+// }
+
+// console.log(`Total Available Stock of all Products are: ${totalStock}`)
+
+// task 12
+
+// for (var i = 0; i < products.length; i++) {
+
+//     console.log(`${products[i].title}`)
+
+//     for(var j =0; j < products[i].variations.length; j++) {
+
+//         console.log(`${products[i].variations[j].color}`)
+//     }
+
+//     console.log(`----------`)
+
+// }
+
+// task 13
+
+// for(var i =0; i < products.length; i++) {
+
+//     for(var j=0; j < products[i].variations.length; j++) {
+
+//         if(products[i].variations[j].color === "black") {
+            
+//             console.log(products[i].variations[j])
+//         }
+//     }
+
+// }
+
+// task 14
+
+// for(var i =0; i < products.length; i++) {
+    
+//     for(var j =0; j < products[i].reviews.length; j++) {
+
+//         if(products[i].reviews[j].status) {
+//             console.log(products[i].reviews[j])
+//         }
+//     }
+// }
+
+// task 15
+
+// var approvedStatus = 0
+
+// for(var i =0; i < products.length; i++) {
+
+//     for(var j =0; j < products[i].reviews.length; j++) {
+
+//         if(products[i].reviews[j].status) {
+
+//             approvedStatus++
+//         }
+//     }
+
+//     console.log(`${products[i].title} => ${approvedStatus}`)
+
+//     approvedStatus = 0
+// }
+
+// task 16
