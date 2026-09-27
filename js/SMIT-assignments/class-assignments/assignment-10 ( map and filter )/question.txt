@@ -1,0 +1,375 @@
+# JavaScript `map()` & `filter()` Exercises
+
+Use this array for all exercises:
+
+```
+const products = [
+  {
+    id: 1,
+    name: "iPhone 15",
+    category: "Mobile",
+    price: 250000,
+    stock: 10,
+    brand: "Apple",
+    rating: 4.8,
+  },
+  {
+    id: 2,
+    name: "Galaxy S24",
+    category: "Mobile",
+    price: 220000,
+    stock: 0,
+    brand: "Samsung",
+    rating: 4.6,
+  },
+  {
+    id: 3,
+    name: "MacBook Air M3",
+    category: "Laptop",
+    price: 350000,
+    stock: 5,
+    brand: "Apple",
+    rating: 4.9,
+  },
+  {
+    id: 4,
+    name: "Dell XPS 13",
+    category: "Laptop",
+    price: 280000,
+    stock: 3,
+    brand: "Dell",
+    rating: 4.5,
+  },
+  {
+    id: 5,
+    name: "AirPods Pro",
+    category: "Accessories",
+    price: 65000,
+    stock: 15,
+    brand: "Apple",
+    rating: 4.7,
+  },
+  {
+    id: 6,
+    name: "Galaxy Buds",
+    category: "Accessories",
+    price: 35000,
+    stock: 0,
+    brand: "Samsung",
+    rating: 4.3,
+  },
+  {
+    id: 7,
+    name: "HP Pavilion",
+    category: "Laptop",
+    price: 180000,
+    stock: 7,
+    brand: "HP",
+    rating: 4.2,
+  },
+  {
+    id: 8,
+    name: "Samsung A55",
+    category: "Mobile",
+    price: 120000,
+    stock: 12,
+    brand: "Samsung",
+    rating: 4.4,
+  },
+];
+```
+
+### 1. Product Names — `map()`
+
+Create a new array containing only product names.
+
+**Expected output:**
+
+```
+[
+  "iPhone 15",
+  "Galaxy S24",
+  "MacBook Air M3",
+  "Dell XPS 13",
+  "AirPods Pro",
+  "Galaxy Buds",
+  "HP Pavilion",
+  "Samsung A55"
+]
+```
+
+### 2. Product Prices — `map()`
+
+Create a new array containing only the product prices.
+
+**Expected output:**
+
+```
+[
+  250000,
+  220000,
+  350000,
+  280000,
+  65000,
+  35000,
+  180000,
+  120000
+]
+```
+
+### 3. Formatted Products — `map()`
+
+Return each product in this format:
+
+```
+Product Name - Rs. Price
+```
+
+**Expected output:**
+
+```
+[
+  "iPhone 15 - Rs. 250000",
+  "Galaxy S24 - Rs. 220000",
+  "MacBook Air M3 - Rs. 350000",
+  "Dell XPS 13 - Rs. 280000",
+  "AirPods Pro - Rs. 65000",
+  "Galaxy Buds - Rs. 35000",
+  "HP Pavilion - Rs. 180000",
+  "Samsung A55 - Rs. 120000"
+]
+```
+
+### 4. Add Discount — `map()`
+
+Create a new array of product objects and add a `discountedPrice` property with a **10% discount**.
+
+Do **not** modify the original objects.
+
+**Expected output shape:**
+
+```
+{
+  id: 1,
+  name: "iPhone 15",
+  category: "Mobile",
+  price: 250000,
+  stock: 10,
+  brand: "Apple",
+  rating: 4.8,
+  discountedPrice: 225000
+}
+```
+
+Expected discounted prices:
+
+```
+[
+  225000,
+  198000,
+  315000,
+  252000,
+  58500,
+  31500,
+  162000,
+  108000
+]
+```
+
+### 5. Available Products — `filter()`
+
+Return only products where:
+
+```
+stock > 0
+```
+
+**Expected product names:**
+
+```
+[
+  "iPhone 15",
+  "MacBook Air M3",
+  "Dell XPS 13",
+  "AirPods Pro",
+  "HP Pavilion",
+  "Samsung A55"
+]
+```
+
+### 6. Mobile Products — `filter()`
+
+Return only products whose category is:
+
+```
+"Mobile"
+```
+
+**Expected product names:**
+
+```
+[
+  "iPhone 15",
+  "Galaxy S24",
+  "Samsung A55"
+]
+```
+
+### 7. Expensive Products — `filter()`
+
+Return products costing more than:
+
+```
+Rs. 200,000
+```
+
+**Expected product names:**
+
+```
+[
+  "iPhone 15",
+  "Galaxy S24",
+  "MacBook Air M3",
+  "Dell XPS 13"
+]
+```
+
+### 8. Highly Rated Products — `filter()`
+
+Return products with a rating of **4.5 or higher**.
+
+**Expected product names:**
+
+```
+[
+  "iPhone 15",
+  "Galaxy S24",
+  "MacBook Air M3",
+  "Dell XPS 13",
+  "AirPods Pro"
+]
+```
+
+### 9. Apple Products — `filter()`
+
+Return only products from:
+
+```
+Apple
+```
+
+**Expected product names:**
+
+```
+[
+  "iPhone 15",
+  "MacBook Air M3",
+  "AirPods Pro"
+]
+```
+
+### 10. Multiple Conditions — `filter()`
+
+Find products that satisfy **both** conditions:
+
+```
+price < 200000
+AND
+stock > 0
+```
+
+**Expected product names:**
+
+```
+[
+  "AirPods Pro",
+  "HP Pavilion",
+  "Samsung A55"
+]
+```
+
+### 11. Available Laptops — `filter()` + `map()`
+
+Find all laptops that are in stock and return **only their names**.
+
+**Expected output:**
+
+```
+[
+  "MacBook Air M3",
+  "Dell XPS 13",
+  "HP Pavilion"
+]
+```
+
+### 12. Discounted Apple Products ⭐
+
+First find Apple products, then give them a **15% discount**.
+
+**Expected discounted prices:**
+
+```
+[
+  {
+    name: "iPhone 15",
+    discountedPrice: 212500
+  },
+  {
+    name: "MacBook Air M3",
+    discountedPrice: 297500
+  },
+  {
+    name: "AirPods Pro",
+    discountedPrice: 55250
+  }
+]
+```
+
+### 13. In-Stock Mobile Names ⭐
+
+Find all mobiles that are in stock, then return:
+
+```
+Product Name - Rs. Price
+```
+
+**Expected output:**
+
+```
+[
+  "iPhone 15 - Rs. 250000",
+  "Samsung A55 - Rs. 120000"
+]
+```
+
+### 14. Challenge 🔥
+
+Find products that meet **all three** conditions:
+
+```
+stock > 0
+rating >= 4.5
+price < 300000
+```
+
+Then return only:
+
+```
+name
+price
+```
+
+**Expected output:**
+
+```
+[
+  {
+    name: "iPhone 15",
+    price: 250000
+  },
+  {
+    name: "Dell XPS 13",
+    price: 280000
+  }
+]
+```
