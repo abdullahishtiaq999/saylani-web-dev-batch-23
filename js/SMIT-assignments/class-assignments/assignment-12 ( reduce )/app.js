@@ -13,7 +13,9 @@ const colors = ["red", "orange", "blue", "orange", "black", "white", "red", "bla
 // console.log(result)
 
 const result = colors.reduce((acc , curr) => {
-    if(!acc[curr]) {
+    if(acc[curr]) {
         acc[curr] = 1
+    } else {
+
     }
 } , {})
