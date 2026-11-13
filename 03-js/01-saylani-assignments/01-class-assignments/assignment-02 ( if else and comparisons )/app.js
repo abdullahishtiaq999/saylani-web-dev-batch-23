@@ -235,3 +235,109 @@
 // } else {
 //     console.log('you dont have free delivery');
 // }
+
+// task 21
+
+// let marks = 98;
+// let status;
+// if(marks >= 40) {
+//     status = true
+// } else {
+//     status = false
+// }
+
+// if(status) {
+//     if(marks >= 80) {
+//         console.log("Excellent")
+//     } else {
+//         console.log("Passed")
+//     }
+// } else {
+//     console.log("Failed")
+// }
+
+// task 22
+
+// let year = 2026;
+// if(year % 4 === 0) {
+//     console.log("leap year")
+// } else {
+//     console.log("not a leap year")
+// }
+
+// task 23
+
+// let s1 = 4;
+// let s2 = 5;
+// let s3 = 8;
+// if(s1 + s2 > s3 || s1 + s3 > s2 || s2 + s3 > s1) {
+//     console.log("valid triangle")
+// } else {
+//     console.log("invalid triangle")
+// }
+
+// task 24
+
+// let username = "admin";
+// let password = 123;
+// if(username === "admin") {
+//     if(password === 123) {
+//         console.log("successfully logged in")
+//     } else {
+//         console.log("incorrect password")
+//     }
+// } else {
+//     console.log("incorrect username")
+// }
+
+// task 25
+
+// let num = 69;
+// if(num >= 50 && num <= 100) {
+//     console.log("number is within the range")
+// } else {
+//     console.log("number is out of the range")
+// }
+
+// task 26
+
+// let num = 69;
+// if(num >= 50 || num <= 100) {
+//     console.log("number is within the range")
+// } else {
+//     console.log("number is out of the range")
+// }
+
+// task 27
+
+// let character = "A";
+// if(character.charCodeAt() >= 48 && character.charCodeAt() <= 57) {
+//     console.log("digit")
+// } else if(character.charCodeAt() >= 65 && character.charCodeAt() <= 90) {
+//     console.log("capital letter")
+// } else if(character.charCodeAt() >= 97 && character.charCodeAt() <= 122) {
+//     console.log("small letter")
+// } else {
+//     console.log("special character")
+// }
+
+// task 28
+
+// let marks = 98;
+// let age = 19;
+// let isCertified = true;
+// if(marks >= 60 && age >= 18 && isCertified) {
+//     console.log("eligible for admission")
+// } else {
+//     console.log("not eligible for admission")
+// }
+
+// task 29
+
+// let trafficLight = "red";
+// switch(trafficLight) {
+//     case "red" : console.log("Stop"); break
+//     case "yellow" : console.log("Wait"); break
+//     case "green" : console.log("Go"); break
+//     default : console.log("invalid color")
+// }
